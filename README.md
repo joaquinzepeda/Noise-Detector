@@ -1,7 +1,7 @@
 # Noise-Detector
 Proyecto realizado para el curso de Laboratorio de Sistemas Digitales. 
 
-![block diagram]()
+![block diagram](Images/modulos.png)
 
 
 # Overview
