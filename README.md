@@ -16,11 +16,21 @@ The repository includes everything needed to build an Noise Detector (excluding 
 ## Computer + Arduino + Sound sensor module + Wifi module
 
 - EL SENSOR DE SONIDO KY-038 
-![KY-038](Images/partes-ky-038.png.png)
+<img src="Images/partes-ky-038.png" width="500"/>
 - Arduino UNO
-![arduino](Images/"arduino uno".png)
+<img src="Images/arduino uno.jpg" width="500"/>
 - Pantalla LCD 16x2
-- Modulo I2C
-- Arduino and the open-source Arduino Software (IDE)
+- Wifi module
+- The open-source Arduino Software (IDE)
+
+
+# Modulos
+## Modulo 0
+<img src="Images/fuente.png" width="500"/>
+<img src="Images/simulacion (1).PNG" width="500"/>
+
+## Modulo 1
+<img src="Images/modulo1-1.PNG" width="500"/>
+## Modulo 2
 
 
