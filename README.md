@@ -38,3 +38,23 @@ The repository includes everything needed to build an Noise Detector (excluding 
 ## Modulo 2
 
 
+## Evaluación Económica 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
