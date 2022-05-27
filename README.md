@@ -45,7 +45,7 @@ The repository includes everything needed to build an Noise Detector (excluding 
 ## Modulo 4
 <img src="Images/modulo4.png" width="500"/>
 
-## Modulo 2
+## Modulo 5
 <img src="Images/modulo5.png" width="500"/>
 
 ## Evaluación Económica 
