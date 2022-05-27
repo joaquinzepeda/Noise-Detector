@@ -50,7 +50,7 @@ The repository includes everything needed to build an Noise Detector (excluding 
 
 ## Evaluación Económica 
 
-<img src="Images/evaluacioneconomica.PNG" width="500"/>
+<img src="Images/evaluacioneconomica.png" width="500"/>
 
 
 
