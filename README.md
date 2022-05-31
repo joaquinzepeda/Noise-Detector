@@ -13,7 +13,7 @@ The repository includes everything needed to build an Noise Detector (excluding 
   - Lower the volume of a device
 
 # What do I need to make one?
-## Computer + Arduino + Sound sensor module + Wifi module
+## Computer + Arduino + Sound sensor module + Wifi module or Computer + Arduino + Sound sensor module + Raspberry pi
 
 - EL SENSOR DE SONIDO KY-038 
 <div align="center">
@@ -34,6 +34,7 @@ The repository includes everything needed to build an Noise Detector (excluding 
 <img src="Images/fuente.png" width="500"/>
 <img src="Images/simulacion (1).PNG" width="800"/>
 </div>
+
 ## Modulo 1
 <div align="center">
 <img src="Images/modulo1-1.PNG" width="450"/>
@@ -50,14 +51,17 @@ The repository includes everything needed to build an Noise Detector (excluding 
 <div align="center">
 <img src="Images/modulo3.png" width="500"/>
 </div>
+
 ## Modulo 4
 <div align="center">
 <img src="Images/modulo4.png" width="500"/>
 </div>
+
 ## Modulo 5
 <div align="center">
 <img src="Images/modulo5.png" width="500"/>
 </div>
+
 ## Evaluación Económica 
 <div align="center">
 <img src="Images/evaluacioneconomica.png" width="500"/>
