@@ -30,10 +30,7 @@ The repository includes everything needed to build an Noise Detector (excluding 
 
 # Modulos
 ## Modulo 0
-<div align="center">
-<img src="Images/fuente.png" width="500"/>
-<img src="Images/simulacion (1).PNG" width="800"/>
-</div>
+
 
 ## Modulo 1
 <div align="center">
