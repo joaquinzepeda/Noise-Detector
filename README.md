@@ -10,7 +10,6 @@ The repository includes everything needed to build an Noise Detector (excluding 
 - Arduino C++ code, which includes code for:
   - Sound level meter
   - Send messages via telegram
-  - Lower the volume of a device
 
 # What do I need to make one?
 ## Computer + Arduino + Sound sensor module + Wifi module or Computer + Arduino + Sound sensor module + Raspberry pi
