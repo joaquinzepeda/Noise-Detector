@@ -1,7 +1,7 @@
 # Noise-Detector
 Proyecto realizado para el curso de Laboratorio de Sistemas Digitales. 
 
-![block diagram](Images/Modulos.png)
+![block diagram](Images/Modularización.png)
 
 
 # Overview
@@ -23,9 +23,10 @@ The repository includes everything needed to build an Noise Detector (excluding 
 <div align="center">
 <img src="Images/arduino uno.jpg" width="280"/>
 </div>
-- Pantalla LCD 16x2
-- Wifi module
-- The open-source Arduino Software (IDE)
+- Raspberry Pi 3 B+
+<div align="center">
+<img src="Images/Raspberry.png" width="280"/>
+</div>
 
 
 # Modulos
