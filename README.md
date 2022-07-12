@@ -64,7 +64,7 @@ The repository includes everything needed to build an Noise Detector (excluding 
 
 ## Economic Evaluation 
 <div align="center">
-<img src="Images/EvEconomica.png" width="500"/>
+<img src="Images/EvEconomica.png" width="300"/>
 </div>
 
 
