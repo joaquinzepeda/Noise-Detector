@@ -67,7 +67,15 @@ The repository includes everything needed to build an Noise Detector (excluding 
 <img src="Images/EvEconomica.png" width="300"/>
 </div>
 
+## Como mejorar el proyecto
 
+Este proyecto podría mejorarse utilizando solamente el Arduino UNO y un módulo Wi-Fi ESP8266.
+Esto reemplazaría a la Raspberry Pi y sería posible disminuir en forma significativa el precio del proyecto. Por otro lado, se podría mejorar el rendimiento del equipo reemplazando los sensores por unos
+que tengan un mayor rango de detección, de todas maneras cambiar los sensores aumentaría el precio
+del proyecto.
+Finalmente, se podría diseñar una estructura para proteger la integridad del circuito y que sólo sean
+visibles las partes importantes de este, por ejemplo, las entradas USB de la Raspberry, la entrada de
+alimentación, los sensores, entre otros.
 
 
 
