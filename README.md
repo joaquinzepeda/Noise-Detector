@@ -102,6 +102,10 @@ Debido a problemas integrando el módulo Wifi, se utiliza una combinación entre
 
 
 ## Economic Evaluation 
+
+Falta agregar las HH (horas hombre) que corresponden a  756000 CLP, el cálculo de HH se realizó considerando dos trabajadores, 9 jornadas correspondientes a los
+laboratorios desde la semana 5 hasta la 14 y 3 horas de trabajo diario.
+
 <div align="center">
 <img src="Images/EvEconomica.png" width="300"/>
 </div>
