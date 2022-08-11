@@ -1,6 +1,11 @@
 # Noise-Detector
 Proyecto realizado para el curso de Laboratorio de Sistemas Digitales. 
 
+**Profesor:** Helmuth Thiemer W.
+
+**Integrantes:**
+* Benjamin Irarrazabal 
+* Joaquin Zepeda
 ## Antecedentes
 
 Si bien en Chile no existen encuestas sobre la cantidad de multas por “ruidos molestos” se puede
@@ -31,7 +36,7 @@ aviso al usuario y evitarán problemas con la administración y sus vecinos.
 
 ![block diagram](Images/funciones.png)
 
-![block diagram](Images/Modularización_funcional.png)
+
 
 
 # Overview
