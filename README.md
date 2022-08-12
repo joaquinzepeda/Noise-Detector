@@ -123,7 +123,9 @@ Luego, la acción de los LEDs de advertencia es controlada mediante un código d
 
 Finalmente, el punto más importante del funcionamiento del circuito corresponde a la definición del umbral, el cual controlará el envío del mensaje a través de Telegram. Como fue mencionado anteriormente, debido a la simplicidad de los sensores se utilizó el promedio de estos.
 
-![formula](https://render.githubusercontent.com/render/math?math=promedio\_sensores = (sensor1+sensor2)/2)
+<div align="center">
+$promedio sensores = (sensor1+sensor2)/2$
+</div>
 
 Luego, considerando que los sensores están configurados para tomar muestras cada $0.1$ segundos, se define la cantidad de muestras usadas para calcular el promedio con el cual actuará el circuito. En primera instancia, se toma un segundo promedio de 100 muestras, por lo tanto, el dispositivo analizará este valor cada 10 segundos y actuará debidamente según el diagrama de la figura \ref{Estados}. No obstante, lo anterior, fue realizado para comprobar el funcionamiento del proyecto ya que, para dejar establecido el dispositivo en un lugar fijo lo ideal es que se tome un promedio de una mayor cantidad de muestras, aumentando el tiempo que tarda este en actuar.
 
