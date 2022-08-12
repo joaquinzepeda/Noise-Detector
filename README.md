@@ -96,9 +96,36 @@ Debido a problemas integrando el módulo Wifi, se utiliza una combinación entre
 </div>
 
 ## Final Circuit
+
+A continuación, se presenta el esquema de conexión para la integración final del circuito. Hay dos partes principales. Primero, la sección superior derecha, construida a base de LEDs, resistencias y un protoboard, toma las muestras de audio y enciende los LEDs según el nivel del volumen. Para esto, se debe configurar la sensibilidad de los potenciómetros de los sensores de sonido manualmente. Por otro lado, la segunda parte consiste en la Raspberry Pi, la cual mediante
+un programa de Python y mediante una conexión WiFi, es capaz de enviar mensajes a través de un
+bot de Telegram. Esto se realiza mediante la definición de un umbral dentro del código, sobre el cual
+se detalla más adelante.
+
 <div align="center">
 <img src="Images/Integración.jpg" width="500"/>
 </div>
+
+Importante destacar que existe una conexión serial entre la Raspberry Pi y el Arduino, el cual
+tiene en sus entradas análogas dos sensores de sonido y en sus canales digitales las
+LEDs de advertencia del módulo anterior.
+
+
+### Funcionamiento del circuito
+
+El funcionamiento del circuito se basa principalmente en el código de Python con el cual se configura la Raspberry Pi. En este, se define un promedio de muestras de ruido recibidas por parte de los dos sensores, el cual se procesa con el algoritmo creado y determina si el ruido está superando el umbral o no. Este funcionamiento se ve reflejado en el siguiente diagrama de estados.
+
+<div align="center">
+<img src="Images/Estados.png" width="500"/>
+</div>
+
+Luego, la acción de los LEDs de advertencia es controlada mediante un código de Arduino, el cual recibe el promedio de los dos sensores y actúa según el nivel alcanzado. Debido a la simplicidad de los componentes, la calibración de sensibilidad se realizó de manera manual, apoyándose de una aplicación celular de sonómetro, no obstante, se cumple con el objetivo, logrando avisar oportunamente los ruidos peligrosos y fuera de norma (sobre 80 [dB]) en rojo y manteniéndose en azul o amarillo para niveles aceptables y sanos. \\
+
+Finalmente, el punto más importante del funcionamiento del circuito corresponde a la definición del umbral, el cual controlará el envío del mensaje a través de Telegram. Como fue mencionado anteriormente, debido a la simplicidad de los sensores se utilizó el promedio de estos.
+
+![formula](https://render.githubusercontent.com/render/math?math=promedio\_sensores = (sensor1+sensor2)/2)
+
+Luego, considerando que los sensores están configurados para tomar muestras cada $0.1$ segundos, se define la cantidad de muestras usadas para calcular el promedio con el cual actuará el circuito. En primera instancia, se toma un segundo promedio de 100 muestras, por lo tanto, el dispositivo analizará este valor cada 10 segundos y actuará debidamente según el diagrama de la figura \ref{Estados}. No obstante, lo anterior, fue realizado para comprobar el funcionamiento del proyecto ya que, para dejar establecido el dispositivo en un lugar fijo lo ideal es que se tome un promedio de una mayor cantidad de muestras, aumentando el tiempo que tarda este en actuar.
 
 
 ## Economic Evaluation 
@@ -109,6 +136,7 @@ laboratorios desde la semana 5 hasta la 14 y 3 horas de trabajo diario.
 <div align="center">
 <img src="Images/EvEconomica.png" width="300"/>
 </div>
+
 
 ## Como mejorar el proyecto
 
